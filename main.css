@@ -37,6 +37,7 @@ body{
 .product_list{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
 }
@@ -65,6 +66,26 @@ body{
 }
 .product-stats div{
     padding-left: 5px;
+}
+.varibili{
+    color: rgb(26, 163, 67);
+    
+}
+
+.purchase{
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 211, 61);
+    font-family: monospace;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.purchase:hover{
+    background-color: black;
+    caret-color: rgb(68, 190, 30);
+    
 }
 
 .container_footer{ 
